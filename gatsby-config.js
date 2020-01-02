@@ -9,7 +9,7 @@ module.exports = {
     ogLanguage: `ru_RU`,
     author: 'Мартын',
     authorDescription: `
-      Фронтэнд разработчик @ Semrush; Автор блога Метабаза
+      Frontend-разработчик @ Semrush; Автор блога Метабаза
     `,
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
@@ -22,6 +22,7 @@ module.exports = {
     ]
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     {
       resolve: 'gatsby-theme-chronoblog',
       options: {
