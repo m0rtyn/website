@@ -10,7 +10,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "dev": "gatsby develop",
-    "deploy": "gatsby build && surge"
+    "deploy": "gatsby build && surge public/ martyn.surge.sh"
   },
   "dependencies": {
     "gatsby": "^2.18.7",
