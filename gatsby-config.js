@@ -1,29 +1,23 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Chronoblog Starter',
-    siteDescription: 'Starter for Gatsby Theme Chronoblog',
-    siteImage: '/banner.png', // main image of the site for metadata
-    siteUrl: 'https://chronoblog.now.sh/',
+    siteTitle: 'Яма Мартына',
+    siteDescription: 'Блог Мартына и хранилище личных проектов',
+    siteImage: '/banner.png',
+    siteUrl: 'https://martyn.guru/',
     pathPrefix: '/',
-    siteLanguage: 'en',
-    ogLanguage: `en_US`,
-    author: 'Site Author', // for example - 'Ivan Ganev'
-    authorDescription: 'short author description', // short text about the author
+    siteLanguage: 'ru',
+    ogLanguage: `ru_RU`,
+    author: 'Мартын',
+    authorDescription: `
+      Фронтэнд разработчик @ Semrush; Автор блога Метабаза
+    `,
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
     social: [
       {
-        icon: `twitter`,
-        url: `https://twitter.com/ganevru`
-      },
-      {
         icon: `github`,
-        url: `https://github.com/Chronoblog/gatsby-theme-chronoblog`
-      },
-      {
-        icon: `node-js`,
-        url: `https://www.npmjs.com/package/gatsby-theme-chronoblog`
+        url: `https://github.com/martyns0n`
       }
     ]
   },
@@ -32,15 +26,13 @@ module.exports = {
       resolve: 'gatsby-theme-chronoblog',
       options: {
         uiText: {
-          // ui text fot translate
           feedShowMoreButton: 'show more',
           feedSearchPlaceholder: 'search',
           cardReadMoreButton: 'read more →',
           allTagsButton: 'all tags'
         },
         feedItems: {
-          // global settings for feed items
-          limit: 50,
+          limit: 33,
           yearSeparator: true,
           yearSeparatorSkipFirst: true,
           contentTypes: {
@@ -57,8 +49,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Chronoblog Gatsby Theme`,
-        short_name: `Chronoblog`,
+        name: `Martyn's pit`,
+        short_name: `Martynpit`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3a5f7d`,
