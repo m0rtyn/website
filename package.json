@@ -1,15 +1,16 @@
 {
-  "name": "chronoblog",
-  "version": "1.12.6",
-  "private": true,
-  "description": "gatsby-starter-chronoblog",
+  "name": "martynpit",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Martyn's website",
   "keywords": [],
   "license": "MIT",
-  "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "author": "Martyn <zogacc@gmail.com>",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "start": "gatsby develop"
+    "dev": "gatsby develop",
+    "deploy": "gatsby build && surge"
   },
   "dependencies": {
     "gatsby": "^2.18.7",
