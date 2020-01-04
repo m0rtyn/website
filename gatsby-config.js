@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteTitle: 'Яма Мартына',
-    siteDescription: 'Блог Мартына и хранилище личных проектов',
+    siteDescription: 'Блог и хранилище проектов. Странное место 🧿',
     siteImage: '/banner.png',
     siteUrl: 'https://martyn.guru/',
     pathPrefix: '/',
@@ -27,10 +27,10 @@ module.exports = {
       resolve: 'gatsby-theme-chronoblog',
       options: {
         uiText: {
-          feedShowMoreButton: 'show more',
-          feedSearchPlaceholder: 'search',
-          cardReadMoreButton: 'read more →',
-          allTagsButton: 'all tags'
+          feedShowMoreButton: 'Показать ещё',
+          feedSearchPlaceholder: 'Поиск',
+          cardReadMoreButton: 'Читать →',
+          allTagsButton: 'Все тэги'
         },
         feedItems: {
           limit: 33,
