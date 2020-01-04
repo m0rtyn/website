@@ -1,6 +1,6 @@
 ---
 date:
-tags: ['дела', 'заметка']
+tags: ['attention-management', 'note']
 ---
 
 # Управление временем

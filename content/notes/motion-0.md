@@ -1,6 +1,6 @@
 ---
 date: 2019-03-31
-tags: ['дела', 'заметка']
+tags: ['attention-management', 'note']
 ---
 
 # Motion #0

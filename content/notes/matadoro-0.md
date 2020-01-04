@@ -1,6 +1,6 @@
 ---
 date: 2019-03-30
-tags: ['дела', 'заметка']
+tags: ['attention-management', 'note']
 ---
 
 # Матадоро #0

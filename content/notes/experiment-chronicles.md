@@ -1,6 +1,6 @@
 ---
 date: 2019-02-21
-tags: ['дела', 'заметка']
+tags: ['attention-management', 'note']
 ---
 
 # Хроника эксперимента

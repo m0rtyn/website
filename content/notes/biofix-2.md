@@ -1,6 +1,6 @@
 ---
 date:
-tags: ['биофикс', 'заметка']
+tags: ['biofix', 'note']
 draft: true
 hide: true
 ---

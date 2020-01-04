@@ -1,6 +1,6 @@
 ---
 date:
-tags: ['заметка']
+tags: ['note', 'mental-model']
 draft: true
 hide: true
 ---
