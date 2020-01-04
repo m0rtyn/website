@@ -3,31 +3,29 @@ import chronoblogTheme from 'gatsby-theme-chronoblog/src/gatsby-plugin-theme-ui'
 // --magic-bezier: cubic-bezier(.25, .8, .25, 1);
 
 // // MONOKAI theme
-// --color-dark: #1d1e19;
-// --color-light: #f6f7ee;
-// --color-r: #f7005e;
-// --color-g: #96e309;
-// --color-b: #53d1ed;
-// --color-o: #fd8500;
-// --color-p: #9d60ff;
-// --color-y: #e0d75a;
-// --color-gray: #625f4b;
+// --color-dark: #2D2A2E;
+// --color-light: #FCFCFA;
+// --color-r: #FF6188;
+// --color-g: #A9DC76;
+// --color-o: #FC9867;
+// --color-c: #78DCE8;
+// --color-p: #AB9DF2;
+// --color-y: #FFD866;
+// --color-gray: #939293;
 
 export default {
   ...chronoblogTheme,
-  initialColorMode: 'dark',
   colors: {
-    ...chronoblogTheme.color,
     modes: {
       ...chronoblogTheme.colors.modes,
-      dark: {
+      light: {
         ...chronoblogTheme.colors.modes.dark,
         text: '#FCFCFA',
         background: '#2D2A2E',
         link: '#FFD866',
+        primary: '#AB9DF2',
         secondary: '#78DCE8',
-        primary: '#FF6188',
-        muted: '#727072'
+        muted: '#939293'
       }
     }
   },
@@ -40,6 +38,10 @@ export default {
     code: 0,
     img: 0,
     authorBanner: 0
+  },
+  borderWidth: {
+    card: 3,
+    search: 3
   },
   fonts: {
     ...chronoblogTheme.fonts
