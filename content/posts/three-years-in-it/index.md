@@ -1,6 +1,6 @@
 ---
 date: 2019-08-12
-tags: ['статья']
+tags: ['article']
 title: Три года в IT
 cover: ./image.jpg
 description:

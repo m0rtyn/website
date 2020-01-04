@@ -3,7 +3,7 @@ title: Слабость воли
 cover: ./image.jpg
 date: 2019-08-05
 description: Доклад о волевом ресурсе с точки зрения XXI века.
-tags: ['дела', 'статья']
+tags: ['attention-management', 'article']
 ---
 
 # Слабость воли. Как разгрузить и сохранить.
