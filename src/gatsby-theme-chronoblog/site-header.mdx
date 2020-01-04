@@ -1,11 +1,16 @@
 import logo from "./logo-outline.svg"
+import styles from "./site-header.module.css"
 
 <MenuMain>
   <MenuBlock>
     <Link to="/">
-      <img src={logo} width="50px"/>
+      <img
+        className={styles.logo}
+        src={logo}
+        alt="Главная страница"
+        width="52px"
+      />
     </Link>
-    <span>&nbsp;&nbsp;</span>
     <Link to="/projects">Проекты</Link>
     <Link to="/log">Метапись</Link>
   </MenuBlock>
