@@ -26,6 +26,15 @@ export default {
         primary: '#AB9DF2',
         secondary: '#78DCE8',
         muted: '#939293'
+      },
+      dark: {
+        ...chronoblogTheme.colors.modes.dark,
+        text: '#FCFCFA',
+        background: '#2D2A2E',
+        link: '#FFD866',
+        primary: '#AB9DF2',
+        secondary: '#78DCE8',
+        muted: '#939293'
       }
     }
   },
