@@ -8,9 +8,7 @@ module.exports = {
     siteLanguage: 'ru',
     ogLanguage: `ru_RU`,
     author: 'Мартын',
-    authorDescription: `
-      Frontend-разработчик @ Semrush; Автор блога Метабаза
-    `,
+    authorDescription: 'Frontend-разработчик @ Semrush',
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
@@ -18,6 +16,14 @@ module.exports = {
       {
         icon: `github`,
         url: `https://github.com/martyns0n`
+      },
+      {
+        icon: `telegram`,
+        url: `https://tele.click/martyns0n`
+      },
+      {
+        icon: `google`,
+        url: `mailto:mrtnsn.dev@gmail.com`
       }
     ]
   },
