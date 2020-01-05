@@ -15,28 +15,25 @@ import chronoblogTheme from 'gatsby-theme-chronoblog/src/gatsby-plugin-theme-ui'
 
 export default {
   ...chronoblogTheme,
+  initialColorMode: 'dark',
   colors: {
-    modes: {
-      ...chronoblogTheme.colors.modes,
-      light: {
-        ...chronoblogTheme.colors.modes.dark,
-        text: '#FCFCFA',
-        background: '#2D2A2E',
-        link: '#FFD866',
-        primary: '#AB9DF2',
-        secondary: '#78DCE8',
-        muted: '#939293'
-      },
-      dark: {
-        ...chronoblogTheme.colors.modes.dark,
-        text: '#FCFCFA',
-        background: '#2D2A2E',
-        link: '#FFD866',
-        primary: '#AB9DF2',
-        secondary: '#78DCE8',
-        muted: '#939293'
-      }
-    }
+    ...chronoblogTheme.colors,
+    // ? Monokai theme
+    // dark: '#2D2A2E',
+    // light: '#FCFCFA',
+    // red: '#FF6188',
+    // green: '#A9DC76',
+    // orange: '#FC9867',
+    // cyan: '#78DCE8',
+    // purple: '#AB9DF2',
+    // yellow: '#FFD866',
+    // gray: '#939293',
+    text: '#FCFCFA',
+    background: '#2D2A2E',
+    link: '#FFD866',
+    primary: '#AB9DF2',
+    secondary: '#78DCE8',
+    muted: '#939293'
   },
   fontSizes: [14, 16, 18, 20, 22, 24, 28, 36],
   borderRadius: {
