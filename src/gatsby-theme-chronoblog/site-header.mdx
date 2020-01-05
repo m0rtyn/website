@@ -1,21 +1,21 @@
+<!-- @mdx mdx -->
+import { jsx } from 'theme-ui'
 import logo from "./logo-outline.svg"
-import styles from "./site-header.module.css"
 
 <MenuMain>
   <MenuBlock>
-    <Link to="/">
+    <Link to="/" sx={{ mr: '24px' }}>
       <img
-        className={styles.logo}
         src={logo}
-        alt="Главная страница"
-        width="52px"
+        alt="На главную страницу"
+        width="48px"
       />
     </Link>
     <Link to="/projects">Проекты</Link>
-    <Link to="/log">Метапись</Link>
+    <Link to="/log">Лог жизни</Link>
   </MenuBlock>
 
   <MenuBlock>
-    <SocialLinks />
+    <Link to="/donate">Toss a coin to your Martyn ♪</Link>
   </MenuBlock>
 </MenuMain>

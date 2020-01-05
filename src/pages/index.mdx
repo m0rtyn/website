@@ -1,6 +1,27 @@
-<AuthorBanner />
+<!-- @mdx mdx -->
+import { jsx } from 'theme-ui'
+import Avatar from "../components/Avatar"
 
-Привет. Тута статьи всякие.
+<AuthorBanner sx={{
+  bg: 'background',
+  borderColor: 'secondary',
+  borderWidth: '3px',
+  borderStyle: 'solid',
+  boxShadow: 'initial'
+}}>
+  <AuthorBannerAvatar />
+  {/* <Avatar /> */}
+  <div>
+    <AuthorBannerHeading
+      as="h1"
+      sx={{ fontSize: [7] }}
+    />
+    <AuthorBannerDescription />
+    <SocialLinks fontSize="32px" />
+  </div>
+</AuthorBanner>
+
+Блог о внимании, сознании и потреблении. А ещё о проектах.
 
 ---
 
